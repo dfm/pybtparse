@@ -20,7 +20,7 @@ Daniel Foreman-Mackey
 
 ##INSTALLATION
 
-First you must install "btparse" from http://www.gerg.ca/software/btOOL/
+First you must install [btparse](http://www.gerg.ca/software/btOOL/).
 
 Type
     >>> sudo python setup.py install
