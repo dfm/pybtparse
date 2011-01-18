@@ -23,18 +23,14 @@ Daniel Foreman-Mackey
 First you must install "btparse" from http://www.gerg.ca/software/btOOL/
 
 Type
-```python
->>> sudo python setup.py install
-```
+    >>> sudo python setup.py install
 to compile and install the module "btparse" in the Python search path.
 
 ##USAGE
 
-```python
->>> import btparse
->>> bib = btparse.load('biblio.bib')
->>> print bib[0]['title']
-Title of zero-th entry in biblio.bib
->>> print bib[10]['abstract']
-This is the abstract of the 10th entry in biblio.bib...
-```
+    >>> import btparse
+    >>> bib = btparse.load('biblio.bib')
+    >>> print bib[0]['title']
+    Title of zero-th entry in biblio.bib
+    >>> print bib[10]['abstract']
+    This is the abstract of the 10th entry in biblio.bib...
