@@ -39,7 +39,7 @@ import numpy.distutils.misc_util
 btparse_dir = '/usr/local'
 
 setup(name='btparse',
-        version='1.0',
+        version='0.1',
         description='btparse',
         author='Daniel Foreman-Mackey',
         author_email='danfm@nyu.edu',
